@@ -1,0 +1,24 @@
+SimTSI.o: \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/SimTSI.cc \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.RocketQuadCoreConfig/chipyard.harness.TestHarness.RocketQuadCoreConfig.plusArgs \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.RocketQuadCoreConfig/chipyard.harness.TestHarness.RocketQuadCoreConfig/VTestDriver.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/verilated.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/verilatedos.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/verilated_config.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/verilated_types.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/verilated_funcs.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/vltstd/svdpi.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/share/verilator/include/vltstd/vpi_user.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/testchip_tsi.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/tsi.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/htif.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/memif.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/byteorder.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/config.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/../riscv/cfg.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/../riscv/decode.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/../riscv/../softfloat/softfloat_types.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/syscall.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/device.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/context.h \
+ /home/tangf/Desktop/work/chisel/230822_1/chipyard/.conda-env/riscv-tools/include/fesvr/htif.h
