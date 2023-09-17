@@ -1,0 +1,3 @@
+${prj_dir}/design/./ip/axi_64_to_256/axi_64_to_256.xci
+${prj_dir}/design/./ip/axi_ddr_256/axi_ddr_256.xci
+${prj_dir}/design/./ip/axi_sram_64/axi_sram_64.xci

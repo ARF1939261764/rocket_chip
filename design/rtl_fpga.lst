@@ -1,4 +1,6 @@
 
+set_property source_mgmt_mode DisplayOnly [current_project]
+
 # Create 'sources_1' fileset (if not found)
 if {[string equal [get_filesets -quiet sources_1] ""]} {
   create_fileset -srcset sources_1
@@ -446,10 +448,16 @@ set filesets_lst [list\
   ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/UARTRx_TestHarness_UNIQUIFIED.sv\
   ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/UARTTx.sv\
   ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/UARTTx_TestHarness_UNIQUIFIED.sv\
-  ${prj_dir}/design/./top/top.v\
+  ${prj_dir}/design/./top/axi_ddr_wrapper.sv\
+  ${prj_dir}/design/./top/axi_sram_wrapper.sv\
+  ${prj_dir}/design/./top/rocket_wrapper.sv\
+  ${prj_dir}/design/./top/top.sv\
 ]
 add_files -norecurse -fileset ${filesets_obj} ${filesets_lst}
 
 
 set_property file_type SystemVerilog [get_files ${filesets_lst}]
 
+add_files -norecurse ${prj_dir}/design/./ip/axi_64_to_256/axi_64_to_256.xci
+add_files -norecurse ${prj_dir}/design/./ip/axi_ddr_256/axi_ddr_256.xci
+add_files -norecurse ${prj_dir}/design/./ip/axi_sram_64/axi_sram_64.xci

@@ -6,6 +6,9 @@
 `ifndef MODEL
  `define MODEL TestHarness
 `endif
+`ifndef CLOCK_PERIOD
+  `define CLOCK_PERIOD 2
+`endif
 
 module TestDriver;
 

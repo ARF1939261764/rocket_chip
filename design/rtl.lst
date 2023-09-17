@@ -437,4 +437,7 @@ ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collat
 ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/UARTRx_TestHarness_UNIQUIFIED.sv
 ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/UARTTx.sv
 ${prj_dir}/design/./chipyard.harness.TestHarness.RocketQuadCoreConfig/gen-collateral/UARTTx_TestHarness_UNIQUIFIED.sv
-${prj_dir}/design/./top/top.v
+${prj_dir}/design/./top/axi_ddr_wrapper.sv
+${prj_dir}/design/./top/axi_sram_wrapper.sv
+${prj_dir}/design/./top/rocket_wrapper.sv
+${prj_dir}/design/./top/top.sv
